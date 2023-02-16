@@ -1,0 +1,184 @@
+    @font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format('opentype');
+    }
+
+
+    :root {
+        --cor0: #7883FB;
+        --cor1: #2E3EFA;
+        --cor2: #2431C7;
+        --cor3: #3B407A;
+        --cor4: #161E7A;
+        --cor5: #000000;
+        --cor6: #f0f8ff;
+
+
+        --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --fonte-destaque: 'Bebas Neue', cursive;
+        --font-android: 'idroid';
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+        font-family: var(--fonte-destaque);
+        color: var(--cor6);
+        border: 0px;
+        margin: 0px;
+    }
+    header h1 {
+	text-align: left;
+	padding: 0px 0px 0px 10px;
+	}
+    header h2 {
+        font-weight: lighter;
+        font-size: 12px;
+	   
+    }
+    header nav {
+        text-align: left;
+        padding: 8px 10px 8px 15px;
+    }
+    header nav a:hover {
+        background-color: var(--cor6);
+        padding: 8px 10px 8px 15px;
+        color: black;
+    
+    }
+    nav a {
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--cor6);
+        text-align: left;
+        border-radius: 5px;
+        padding: 8px 10px 8px 15px;
+        transition-duration: 0.5s;
+        
+
+    }
+    nav { 
+        border: 0px;
+        background-color: var(--cor0);
+        padding: 8px 0px 8px 0px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.158);
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to right, var(--cor4), var(--cor2));
+
+    }
+    main h2 {
+        background-image: linear-gradient(to right, #cbc9ee86, transparent);
+        font-family: idroid;
+        color: var(--cor5);
+        text-indent: 8px;
+    }
+    article p {
+        text-indent: 30px;
+        text-align: justify;
+        color: var(--cor5);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    article p a:hover {
+        color: rgb(8, 5, 163);
+    }
+
+    .historia article h2 {
+        background-color: rgba(39, 124, 124, 0.075);
+    }
+    main {
+        padding: 10px 50px;
+        background-color: var(--cor6);
+        margin: auto;
+        min-width: 300px;
+        max-width: 800px;
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.363);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+
+    }
+    div.video {
+        text-align: center;
+        background-color: #00067549;
+        padding: 20px;
+        padding-bottom: 50%;
+        margin: 0px -50px 30px -50px;
+        position: relative;
+    }
+
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+    main img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    main img.pequena {
+        max-width: 350px;
+        display: block;
+        margin: auto;
+    }
+    .more aside h2 {
+        background-image: linear-gradient(to right, var(--cor3), transparent);
+        border-radius: 15px 15px 0px 0px;
+        padding: 5px;
+        color: var(--cor6);
+	   font-weight: bold;
+	   font-family: 'arial';
+	   font-size: 1.2em;
+    }
+    .more {
+        background-color: var(--cor1);
+        border-radius: 15px;
+    }
+    .more aside p {
+        padding: 10px;
+	  color: var(--cor6);
+    }
+    footer {
+        background-color: #000675;
+        color:aliceblue;
+        font-weight: normal;
+        padding: 2px;
+        margin: 0px;
+        text-align: center;
+    }
+    footer p a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+    footer p a:visited {
+        color: aliceblue;
+    }
+    footer p a:hover {
+        color: #2ec5da;
+        text-decoration:underline
+    }
+    a {
+        text-decoration: none;
+    }
+
+    a.externo::after {
+        content: '\00A0\1F517';
+    }
+    ol {
+        list-style-type: '\2714\00A0\00A0';
+        color: var(--cor6);
+        columns: 2;
+    }
+    abbr {
+        text-decoration: none;
+    }
+    
